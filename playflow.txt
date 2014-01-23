@@ -1,0 +1,26 @@
+//1st phase create mode
+user enters the W x H
+
+map is generated (empty one)
+
+user is allowed to choose between two object types : walkable paths and obstacles
+
+	walkable :
+		road-tile
+		sand-tile
+	obstacles:
+		tree
+		grass - tile
+		stone
+
+user creates the map and saves it as .pfm(pathfinding-map) file
+
+
+
+//2nd phase : playmode
+user loads a map and starts playing it 
+	model and maps are loaded. model is put over the map on some random (walkable tile)
+
+user then clicks any place on the map(that is walkable) and the AI algorithm calculates the path to that position
+
+the returned path is followed by the character
