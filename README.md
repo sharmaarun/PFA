@@ -7,7 +7,7 @@ irrlicht and vc++
 
 //1st phase create mode
 user enters the W x H
-[W and H max length allowed : 24]
+	[W and H max length allowed : 24]
 
 map is generated (empty one)
 
